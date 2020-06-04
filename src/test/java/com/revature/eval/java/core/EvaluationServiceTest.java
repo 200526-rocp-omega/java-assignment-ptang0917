@@ -39,6 +39,7 @@ public class EvaluationServiceTest {
 	public void testSpeedConverterInvalid() {
 		assertEquals(-1, EvaluationService.SpeedConverter.toMilesPerHour(-5.6));
 	}
+
 	
 	/*******************************************************************
 	 * Question 1.B
