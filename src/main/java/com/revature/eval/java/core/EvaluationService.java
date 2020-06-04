@@ -807,8 +807,6 @@ public class EvaluationService {
 	public boolean isArmstrongNumber(int input) {
 		int size = Integer.toString(input).length();
 		int sum = 0;
-		int remainder;
-		int num2;
 		List<Integer> numList = new ArrayList<Integer>();
 		String num_string = Integer.toString(input);
 		for(int i =0; i < num_string.length(); i++) {
